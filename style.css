@@ -1,0 +1,93 @@
+body {
+  background-color: rgb(238, 255, 162);
+}
+
+.taust {
+  min-height: 300px;
+  min-width: 100%;
+  background-image: url(./falloxbow-1058032.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -150px;
+  background-size: auto 290%;
+}
+
+.riba {
+  background-color: rgb(19, 192, 3);
+}
+
+.card {
+  background-color: rgb(19, 192, 3);
+}
+.ptaust1 {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(19, 192, 3);
+}
+.ptaust2 {
+  background-color: rgb(19, 192, 3);
+}
+
+.card > img {
+  height: 150px;
+  width: 150px;
+}
+
+.looduspilt {
+  transform: rotate(-5deg);
+}
+
+.btn {
+  background-color: darkorange;
+}
+
+.banner {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.tekstiriba {
+  transform: rotate(-10deg) scale(1.5);
+  overflow: hidden;
+}
+
+.roheline {
+  color: forestgreen;
+  display: inline-block;
+}
+.heleroheline {
+  color: yellowgreen;
+  display: inline-block;
+}
+
+.nav-item > a {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .x {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 950px) {
+  .tekstiriba {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .tekstiriba {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .tekstiriba {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .tekstiriba {
+    height: 200px;
+  }
+}
